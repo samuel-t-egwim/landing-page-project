@@ -1,0 +1,201 @@
+/* .navbar{
+    display: flex;
+    padding-left: 30px;
+    background-color: black;
+}
+
+.navdiv{
+    padding: 25px;
+}
+
+.navdiv a{
+    padding: 20px;
+    text-decoration: none;
+    color: blue;
+}
+/* imageContainer */
+
+/* .text001{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 80px;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagee/backgroung\ image.webp)
+}
+
+/* 
+  .text002 img{
+    position: absolute;
+    left: 70%;
+    width: 900px;
+    top: 20%;
+  } */
+
+  /* .text003 h1{
+    font-size: 100px ;
+    padding-left: 50px;
+  }
+
+  .text003 p{
+    font-size: 50px;
+    padding-left: 50px;
+  }
+
+  .text002 img{ */
+    
+    /* right: 50px; */
+    /* bottom: 70px; */
+    /* padding-left: 100px;
+    padding-top: 80%;
+    max-width: 50%;
+    max-height: 50%; */
+    /* position: absolute;
+    top: 70%; */
+/* }
+
+.text004{
+  margin: 50px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-family: Arial;
+  font-size: 40px;
+}
+
+.text005{
+  margin: 50px;
+}
+.text005 img{
+  display: flex;
+} */
+
+@media only screen and (min-width:768px) {
+  .navbar{
+    display: flex;
+    padding-left: 30px;
+    background-color: black;
+    width: 100%;
+}
+
+.navdiv{
+    padding: 25px;
+}
+
+.navdiv a{
+    padding: 20px;
+    text-decoration: none;
+    color: blue;
+}
+/* imageContainer */
+
+.text001{
+    padding-left: 20px;
+    padding-bottom: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+    border-radius: 80px;
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(imagee/backgroung\ image.webp)
+}
+
+/* 
+  .text002 img{
+    position: absolute;
+    left: 70%;
+    width: 900px;
+    top: 20%;
+  } */
+
+  .text003 h1{
+    font-size: 100px ;
+    padding-left: 50px;
+  }
+
+  .text003 p{
+    font-size: 50px;
+    padding-left: 50px;
+  }
+
+  .text002 img{
+    
+    /* right: 50px; */
+    /* bottom: 70px; */
+    padding-left: 100px;
+    padding-top: 80%;
+    max-width: 50%;
+    max-height: 50%;
+    /* position: absolute;
+    top: 70%; */
+}
+
+.text004{
+  margin: 50px;
+  padding-bottom: 40px;
+  font-style: italic;
+  font-family: Arial;
+  font-size: 40px;
+}
+
+.text005{
+  margin: 50px;
+}
+.text005 img{
+  display: flex;
+}
+footer{
+  background-color: black;
+}
+.footerContainer{
+  width: 100%;
+  padding: 70px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a i{
+  font-size: 2em;
+  color: black;
+}
+/* Hover effect on social media icon */
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover i{
+  color: white;
+  transition: 0.5s;
+}
+.footerBottom{
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}
+}
